@@ -1,18 +1,18 @@
 //1) Crie um programa que declare duas variáveis e exiba o resultado da soma,
 // subtração, multiplicação e divisão desses números.
-let n1 = 200
-let n2 = 20
+let n1 = 200;
+let n2 = 20;
 let soma = n1 + n2
 let subtracao = n1 - n2
 let multiplicacao = n1 * n2
 let divisao = n1 / n2
-console.log(`Dado os valores ${n1} e ${n2}. Soma: ${soma}; Subtração: ${subtracao}; Multiplicação: ${multiplicacao}; Divisão: ${divisao}.`)
+console.log(`Dado os valores ${n1} e ${n2}.\nSoma: ${soma};\nSubtração: ${subtracao};\nMultiplicação: ${multiplicacao};\nDivisão: ${divisao}.\n`)
 
 //2)Declare duas idades e utilize operadores de comparação para verificar se uma
 // pessoa é mais velha que a outra.
 let p1 = 25 
 let p2 = 42
-let idade = p1 == p2 ? "Elas tem a mesma idade" : "Elas não tem a mesma idade"
+let idade = p1 > p2 ? "A primeira pessoa é mais velha" : "A segunda pessoa é mais velha"
 console.log(idade)
 
 //3) Crie uma variável idade com um número e use o operador ternário para verificar
