@@ -1,0 +1,26 @@
+
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "Anotaçoes.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaLeticiaRocha/Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnaLeticiaRocha/Backend/issues"
+  },
+  "homepage": "https://github.com/AnaLeticiaRocha/Backend#readme",
+  "description": ""
+
+}
