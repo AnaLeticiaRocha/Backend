@@ -138,3 +138,7 @@ const colecaoUf = [
 ]
 
 export default colecaoUf;
+
+//colecaoUf.filter(uf => uf.nome === 'Amazonas');
+
+// const filmesBuscaPorNome = filmes.filter(filme) => filme.titulo.toLowerCase().includes("retorno");
