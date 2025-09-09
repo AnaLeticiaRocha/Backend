@@ -1,4 +1,5 @@
-import { buscarUfs, buscarUfsPorId, buscarUfsPorNome } from "./servicos/servicos.js";
+import colecaoUf from "./dados/dados.js";
+import { buscarUfs, buscarUfsPorId, buscarUfsPorNome, buscarUfsPorSigla } from "./servicos/servicos.js";
 import express from 'express';
 
 const app = express();
@@ -25,6 +26,13 @@ app.get('/ufs/:iduf' , (req, res) => {
     }else{
         res.status(404).send({ "erro": "ID não encontrada"});
     }
+})
+
+app.get('/ufs/:iduf' , (req, res) => {
+    const nomeUf = req.query.buscar;
+    const resultado = nomeUf ? buscarUfsPorSigla(nomeUf) : colecaoUf;
+    
+                                                                                          
 })
 
 

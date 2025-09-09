@@ -12,3 +12,7 @@ export const buscarUfsPorId = (id) => { //Retorna o id especificado
     const idUF = parseInt(id);
     return colecaoUf.find(uf => uf.id === idUF);
 }
+
+export const buscarUfsPorSigla = (nomeUf) => {
+    return colecaoUf.filter(uf => uf.nome.toLowerCase().includes())
+}
